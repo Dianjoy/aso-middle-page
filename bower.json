@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "2.0.0",
+  "authors": [
+    "chenying <ying.chen@dianjoy.com>"
+  ],
+  "description": "aso jump page",
+  "main": "index.html",
+  "keywords": [
+    "mobile",
+    "web",
+    "page"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

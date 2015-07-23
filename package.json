@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "2.0.0",
+  "description": "aso jump page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mobile",
+    "web",
+    "page"
+  ],
+  "author": "ChenYing",
+  "license": "MIT"
+}
