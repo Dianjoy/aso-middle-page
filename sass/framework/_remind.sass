@@ -1,0 +1,34 @@
+@import "../define"
+
+.remind
+  font-size: 12px
+  text-align: center
+  padding: 35px 0 21px
+  position: relative
+  
+  .line
+    position: absolute
+    border-bottom: 1px solid $line-color
+    left: 35px
+    right: 60%
+    top: 44px
+
+    &:after
+      position: absolute
+      background-color: $line-color
+      font: 5px/5px
+      width: 5px
+      height: 5px
+      content: ' '
+      border-radius: 50%
+      top: -2px
+
+    &.left:after
+      right: 0
+    
+    &.right
+      left: 60%
+      right: 35px
+
+      &:after
+        left: 0
