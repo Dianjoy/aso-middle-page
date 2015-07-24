@@ -1,4 +1,5 @@
 @import "../define"
+@import "compass/css3/user-interface"
 
 .touch
   border: 1px dashed $border-red
@@ -6,11 +7,24 @@
   margin: 0 35px
   text-align: center
   font-size: 16px
-  line-height: 2em
-  padding: 10px 0
+  @include user-select(elements)
 
   .keyword
-    color: $font-red
+    background: $white
+    color: $white
+    display: block
+    font-size: 4em
+    line-height: 1em
+    position: relative
+
+    &:after
+      content: attr(data-content)
+      color: $font-red
+      font-size: 0.25em
+      position: absolute
+      left: 0
+      right: 0
+      text-align: center
 
 .label
   font-size: 12px

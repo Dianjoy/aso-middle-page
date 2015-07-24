@@ -12,5 +12,11 @@
     "page"
   ],
   "author": "ChenYing",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-imagemin": "^0.9.4"
+  }
 }
